@@ -19,7 +19,7 @@ const SkillsSection = () => {
     {
       icon: Zap,
       title: 'Tools & Others',
-      skills: ['Git', 'MongoShell', 'Visual Studio', 'Jest', 'Storybook'],
+      skills: ['Git', 'MongoShell', 'Visual Studio', 'Storybook'],
       color: 'linear-gradient(135deg, #eab308, #f97316)',
     },
   ];
