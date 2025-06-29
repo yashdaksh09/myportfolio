@@ -10,6 +10,13 @@ const IntroSection = () => {
     }
   };
 
+  let resumedownload=()=>{
+    const link= document.createElement("a");
+    link.href= "/resume.pdf";
+    link.download= "YashResume.pdf";
+    link.click(); // programmily click 
+  }
+
   return (
     <section id="intro" className="intro-section">
       <div className="intro-content">
@@ -41,10 +48,11 @@ const IntroSection = () => {
 
         {/* Action Buttons */}
         <div className="intro-buttons">
-          <button className="btn btn-primary">
+         <a href="/resume.pdf" download={"YashResume.pdf"}> <button onClick={resumedownload} className="btn btn-primary">
             <Download size={20} style={{ marginRight: '8px' }} />
+            
             Download CV
-          </button>
+          </button></a>
           <button 
             onClick={scrollToNext} 
             className="btn btn-secondary"
