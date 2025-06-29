@@ -12,8 +12,6 @@ const IntroSection = () => {
 
   let resumedownload=()=>{
     const link= document.createElement("a");
-    link.href= "/resume.pdf";
-    link.download= "YashResume.pdf";
     link.click(); // programmily click 
   }
 
@@ -48,7 +46,7 @@ const IntroSection = () => {
 
         {/* Action Buttons */}
         <div className="intro-buttons">
-         <a href="/resume.pdf" download={"YashResume.pdf"}> <button onClick={resumedownload} className="btn btn-primary">
+         <a href="https://drive.google.com/file/d/1gEB7GEFMia18qyjzigxHEtwUGSYUB2Pw/view?usp=drive_link" > <button onClick={resumedownload} className="btn btn-primary">
             <Download size={20} style={{ marginRight: '8px' }} />
             
             Download CV
