@@ -26,6 +26,16 @@ const WorkSection = () => {
       githubUrl: 'https://github.com',
       featured: true,
     },
+    {
+      title: 'Stock Application (Comming Soon...)',
+      description: '',
+      image: 'photo-1614332287897-cdc485fa562d',
+      category: 'Full Stack',
+      technologies: [],
+      liveUrl: '',
+      githubUrl: 'https://github.com',
+      featured: true,
+    }
     // {
     //   title: 'Portfolio Website',
     //   description: 'Modern portfolio website with 3D animations and interactive elements.',

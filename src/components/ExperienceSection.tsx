@@ -9,10 +9,8 @@ const ExperienceSection = () => {
       company: 'Correct Steps Consultancy',
       location: 'Remote- Ghaziabad',
       period: 'October 2024 - 2025',
-      description: 'Built scalable web applications from scratch. Worked closely with design team to implement pixel-perfect interfaces.',
-      achievements: [
-        'Built responsive pages',
-      ],
+      description: ["India-Italy Connect is a project developed to assist Indian students who aspire to study in Italy by providing a one-stop platform to find the right colleges, job opportunities, hostels, and accommodation options. The mission was to simplify the relocation process for students by offering accurate and reliable information, while the vision was to build a digital bridge between India and Italy, making international education more accessible and stress-free."],
+      achievements: ["Developed a Mern-stack web application using HTML, CSS, JavaScript React, and GitHub data.", "Create RESTful APIs using Node.js and Express.js.", "Implement authentication methods such as JWT or OAuth.", "Design an efficient MongoDB schema"],
       technologies: ['HTML', 'JavaScript', 'Node.js'],
       link: '',
     },
@@ -61,7 +59,7 @@ const ExperienceSection = () => {
                       <li key={achIndex}>{achievement}</li>
                     ))}
                   </ul>
-                </div>
+                </div>  
 
                 <div className="experience-technologies">
                   {exp.technologies.map((tech, techIndex) => (
