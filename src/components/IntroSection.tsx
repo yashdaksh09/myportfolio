@@ -46,7 +46,7 @@ const IntroSection = () => {
 
         {/* Action Buttons */}
         <div className="intro-buttons">
-         <a href="https://drive.google.com/file/d/1gEB7GEFMia18qyjzigxHEtwUGSYUB2Pw/view?usp=drive_link" > <button onClick={resumedownload} className="btn btn-primary">
+         <a href="https://drive.google.com/file/d/1-Y7ALBx2wDjniRxAKAwHf1PLeVLPHMyU/view?usp=drivesdk" > <button onClick={resumedownload} className="btn btn-primary">
             <Download size={20} style={{ marginRight: '8px' }} />
             
             Download CV
